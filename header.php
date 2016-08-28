@@ -13,3 +13,8 @@
   <?php wp_head(); ?>
 </head>
 <body>
+
+<header>
+  <h1><a href="<?php echo get_site_url(); ?>"><?php echo get_bloginfo('title'); ?></a></h1>
+  <?php echo get_bloginfo('description'); ?>
+</header>
